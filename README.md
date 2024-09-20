@@ -15,6 +15,7 @@ type to fit the data.
 5. Compute the ACF Values.
 6. Represent the result in graphical representation as given below.
 ### PROGRAM:
+```
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -63,7 +64,7 @@ plt.xlabel('Lag')
 plt.ylabel('ACF')
 plt.grid(True)
 plt.show()
-
+```
 ### OUTPUT:
 ![image](https://github.com/user-attachments/assets/4f6a1336-5308-4d40-9db0-6e9079acb011)
 
